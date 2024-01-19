@@ -272,4 +272,19 @@ a:hover {
     }
 }
 
+/* Add this to your existing styles */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
 
+@media (max-width: 768px) {
+    footer {
+        padding: 10px;
+    }
+}
