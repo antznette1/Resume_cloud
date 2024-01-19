@@ -5,8 +5,9 @@ Resources:
   MyLambdaFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: ./path/to/your/code
-      Handler: your_handler_function
-      Runtime: python3.8
+      CodeUri: ./Infra_as_a_code/Lambda
+      Handler: func.your_handler_function  # Adjust your_handler_function accordingly
+      Runtime: python3.12
       # Add the following line to specify the S3 bucket
       S3Bucket: antznette.datacraftedsolutions.com
+
