@@ -8,4 +8,4 @@ Resources:
       CodeUri: .
       Handler: func.lambda_handler  
       Runtime: python3.12
-      Role: arn:aws:iam::807410460168:role/service-role/tonette_resume_API-role-qwirukas
+      Role: arn:aws:iam::807410460168:role/iam_for_lambda
