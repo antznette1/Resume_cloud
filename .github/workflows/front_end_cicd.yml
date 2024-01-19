@@ -20,7 +20,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: 'us-east-1'
         SOURCE_DIR: 'tonette_website'
-    - name: Invalidate CloudFront cache
+    - name: Create CloudFront Invalidation
       run: aws cloudfront create-invalidation --distribution-id EO1J1SQNZ8DUE --paths "/*"
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
