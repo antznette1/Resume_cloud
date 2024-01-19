@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     async function updateCounter() {
         try {
-            let response = await fetch("https://xxsxob37xnn6wsfuzwi7g5g54q0ymwit.lambda-url.us-east-1.on.aws/");
+            let response = await fetch("https://4sbzwjxvcsrjcqff6obu4esqau0gbhtx.lambda-url.us-east-1.on.aws/");
             let data = await response.json();
 
             console.log("Response from Lambda:", data);

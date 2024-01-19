@@ -185,6 +185,7 @@ span {
     margin-right: 8px;
     text-align: center;
 }
+
 /* Style for the navigation */
 nav {
     background-color: #4CAF50;
@@ -214,22 +215,6 @@ a:hover {
     text-decoration: underline;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    background-color: #f0f0f0;
-}
-
-.counter-value {
-    font-weight: bold;
-    color: #4CAF50; /* Adjust color as needed */
-    margin-top: 8px; /* Add margin to the counter value */
-}
-
 /* Add this to your existing styles */
 .social-icons {
     display: flex;
@@ -242,4 +227,49 @@ footer {
     margin-right: 10px;
     /* Add any additional styling as needed */
 }
+
+/* Add media query for mobile view */
+@media (max-width: 768px) {
+    body, html {
+        margin: 0;
+    }
+
+    .top-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headshot-container {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+
+    .resume-headshot {
+        width: 80px;
+        height: 80px;
+        border: 2px solid #4CAF50;
+    }
+
+    .contact-info {
+        text-align: center;
+        margin-top: 0.5em;
+    }
+
+    .resume-section {
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 0.5em;
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+        margin-top: 1em;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
 
