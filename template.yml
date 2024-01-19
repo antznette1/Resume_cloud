@@ -3,9 +3,10 @@ Transform: 'AWS::Serverless-2016-10-31'
 
 Resources:
   MyLambdaFunction:
-    Type: 'AWS::Serverless::Function'
+    Type: AWS::Serverless::Function
     Properties:
-      Handler: lambda_function.handler
-      Runtime: python3.12
-      CodeUri: .
-      FunctionName: myLambdaFunction
+      CodeUri: ./path/to/your/code
+      Handler: your_handler_function
+      Runtime: python3.8
+      # Add the following line to specify the S3 bucket
+      S3Bucket: antznette.datacraftedsolutions.com
