@@ -33,7 +33,7 @@ jobs:
 
 
       - name: Run tests
-        run: pytest tests/
+        run: pytest tests/tests.py
 
       - name: SAM Deploy
         run: sam deploy --stack-name tonette_resume --region us-east-1 --capabilities CAPABILITY_IAM
