@@ -8,6 +8,5 @@ Resources:
       CodeUri: ./Infra_as_a_code/Lambda
       Handler: func.lambda_handler  # Adjust your_handler_function accordingly
       Runtime: python3.12
-      # Add the following line to specify the S3 bucket
-      S3Bucket: antznette.datacraftedsolutions.com
+      
 
