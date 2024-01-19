@@ -27,6 +27,11 @@ jobs:
           curl -Lf https://github.com/aws/aws-sam-cli/releases/latest/download/aws-sam-cli-linux-x86_64.zip -o sam.zip
           unzip sam.zip -d /usr/local/bin
 
+      - name: Install pytest
+        run: |
+          pip install pytest
+
+
       - name: Run tests
         run: pytest tests/
 
