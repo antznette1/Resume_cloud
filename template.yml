@@ -8,4 +8,4 @@ Resources:
       CodeUri: .
       Handler: func.lambda_handler  
       Runtime: python3.12
-      Role: arn:aws:iam::807410460168:policy/aws_iam_policy_for_terraform_resume_project_policy
+      Role: arn:aws:iam::807410460168:role/service-role/tonette_resume_API-role-qwirukas
