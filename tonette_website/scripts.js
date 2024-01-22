@@ -15,10 +15,9 @@ const timelineData = [
         description:`Masterfully utilized R and Oracle SQL to dissect vast datasets, leading to the development of predictive models that informed merchandising strategies and drove a 16% increase in sales for key retail clients.
             Collaborated with marketing teams, harnessing ThoughtSpot for digital campaign analysis. Insights derived led to a 30% improvement in both online and in-store campaign outcomes.
             Pioneered segmentation and RFM (Recency, Frequency, Monetary) models, resulting in personalized marketing campaigns that boosted customer retention by 20% and increased average customer lifetime value.
-            Managed data architecture on Amazon Redshift, optimizing processes that cut down data retrieval times by 20% during critical retail decision moments.
+            Proactively uncovered suspicious activity within a prominent loyalty program, alerting program administrators to possible data issues before any financial losses could occur.
             Directed comprehensive digital analysis for e-commerce platforms, identifying user behaviors and preferences, which culminated in a 15% rise in online conversions and a 22% enhancement in average cart values.
-            Championed data integrity with stringent validation protocols, earning trust and ensuring reliability in insights, as evidenced by an 18% uptick in contract renewals from major retail clients.
-            Managed data architecture on Amazon Redshift, optimizing processes and achieving a 20% reduction in data retrieval times.`
+            Championed data integrity with stringent validation protocols, earning trust and ensuring reliability in insights, as evidenced by an 18% uptick in contract renewals from major retail clients.`
     },
     {
        date: '11/2022 – 09/2023',
